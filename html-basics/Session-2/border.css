@@ -1,0 +1,19 @@
+table, th, td {
+    border: 2px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;    
+}
+th, td{
+    padding:5px;
+}
+
+th {
+    text-align:center;
+}
+
+td{
+    text-align:right;
+}
+td{
+    text-align:center;
+}
