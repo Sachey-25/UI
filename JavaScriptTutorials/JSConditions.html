@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Conditions</title> 
+    </head>
+    <body> 
+        <p id="condition">If statement  </p> 
+        <p id="condition_else">If-else statement  </p> 
+        <p id="condition_else_ano">This is another Example </p> 
+        <script>
+            let name = "Sachin";
+            let machine = "Laptop"
+            let device = "Laptop"
+            if(name == "Sachin"){
+                document.getElementById("condition").innerHTML="My name is Sachin";
+            }
+            if(machine == device){
+                document.write(machine);
+                document.write(device);
+                document.write("Strings are equal to each other")
+
+            }
+        </script>
+        <script>
+            let hour = new Date().getHours();
+
+            if(hour < 6){
+                letsSay = "Good Morning";
+            }else{
+                letsSay="Good-Afternoon";
+            }
+            document.getElementById("condition_else").innerHTML = letsSay;
+        </script>
+        <script>
+            let hour = new Date().getHours();
+            var number = 15;
+
+            if(number < 14){
+                document.getElementById("condition_else_ano").innerHTML = 
+            "Number is less than 14";
+            }else if (number < 20 ){
+                document.getElementById("condition_else_ano").innerHTML = 
+            "Number is less than 15";
+            }else{
+                document.getElementById("condition_else_ano").innerHTML = 
+            "NUmber is something else";
+            }
+           
+        </script>
+    </body>
+</html>

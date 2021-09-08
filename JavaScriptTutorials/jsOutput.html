@@ -1,0 +1,58 @@
+<!Doctype html>
+<html> 
+
+    <head>
+        <title>JavaScriot Variables</title>
+    </head>
+
+    <body>
+    <script>
+        var number = 10;
+        var another_number = 20;
+        let result = number + another_number;
+        document.write("addition of 10 and 20 are: " + result);
+    </script>
+    
+    
+
+    <h2><center>My first JSWebpage</center></h2>
+    <!--Using innerHtml element would like to see an output-->
+    <p>This is a paragraph which acts as document object model element </p> 
+    <p id="sachin"></p>
+    <p id="demo"></p>  
+    <script>
+        document.getElementById("sachin").innerHTML=40+20;
+    </script>
+    <script>
+        document.getElementById("demo").innerHTML="My name is Sachin";
+    </script>
+
+    <script>
+        document.write("This is another example" + (100+200));
+    </script>
+    <button type="button" onclick="document.write(300+400)">click here</button> 
+    
+    <script>
+        window.alert(300+400);
+    </script>
+
+    <script>
+       console.log(300+400);
+    </script>
+
+    <button onclick = "window.print()"> Print this page </button>
+    <p id = "result"></p>
+
+    <!--JavaScript representions-->
+    <h2> This is JavaScript multiple assignment </h2>
+    <p> This is JavaScript multiple assignment sepeareated by semicolons </p>
+    <script>let first,second,third;
+        first = "I am first here";
+        second = "I am next here";
+        third =" I am next to next here";
+        result = first+second+third;
+        document.getElementById("result").innerHTML=result;
+
+    </script>
+
+</html
